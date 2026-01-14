@@ -1,0 +1,6 @@
+"Chunking Method","Description","Libraries Used"
+"Character Text Splitting","Splits on fixed character counts","langchain.text_splitter"
+"Recursive Character Text Splitting","Splits hierarchically (newline, space, etc.) while preserving semantic structure","langchain.text_splitter"
+"Markdown/Python/JS Splitting","Chunking tailored for document formats and code syntax","MarkdownTextSplitter, etc."
+"Semantic Chunking","Uses embeddings to split at semantic change points","SemanticChunker + Embeddings"
+"Agentic Chunking (experimental)","Human-like chunking via LLM inference; groups related propositions","LLM, Pydantic, AgenticChunker"

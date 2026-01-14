@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# WandB experiment tracking
+wandb/
+
+# Model checkpoints and weights
+*.safetensors
+*.bin
+*.pt
+*.pth
+tokenizer.model
+
+# Large datasets (optional - if user adds large files later)
+*.parquet
+*.arrow
+
+# Hugging Face cache
+.cache/huggingface/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
